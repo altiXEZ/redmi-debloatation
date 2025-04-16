@@ -1,0 +1,33 @@
+# MIUI Optimization on Redmi Note 10 JE
+
+## Summary
+
+This project logs the process of optimizing MIUI performance by using ADB to debloat system apps, switching to Nova Launcher, and tweaking system settings.
+
+## Device Info
+
+- Model: Redmi Note 10 JE
+- RAM: 4+3 GB
+- Android Version: 13 (Tiramisu)
+- MIUI Version: 14.0.26
+
+## Actions Taken
+
+- Connected ADB on Windows
+- Removed pre-installed apps (e.g. Mi Browser, Mi Music, etc.)
+- Installed and set up Nova Launcher
+- Boosted RAM and reduced idle usage
+- Attempted alternate launchers and system tweaks
+
+## Tools Used
+
+- Android SDK Platform Tools
+- ADB (command-line)
+- Nova Launcher
+- GitHub for tracking and documenting progress
+
+## What’s Next
+
+- Rooting and deeper customizations (planned)
+- Testing GCam vs MiCam
+- UI redesign experiments
