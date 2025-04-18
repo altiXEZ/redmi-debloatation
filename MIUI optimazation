@@ -13,21 +13,27 @@ This project logs the process of optimizing MIUI performance by using ADB to deb
 
 ## Actions Taken
 
-- Connected ADB on Windows
-- Removed pre-installed apps (e.g. Mi Browser, Mi Music, etc.)
-- Installed and set up Nova Launcher
-- Boosted RAM and reduced idle usage
+Actions Taken
+
+1. Switched Launcher
+- Replaced the default **MIUI System Launcher** with **Nova Launcher**
+- Resulted in a lighter and faster user interface
 - Attempted alternate launchers and system tweaks
 
-## Tools Used
+2. Removed Bloatware via ADB
+- Utilized `adb shell pm uninstall --user 0` to remove high RAM-usage and unnecessary system apps like:
+  - Mi Video
+  - Mi Music
+  - Mi Browser
+  - Mi Feedback
+  - Mi Services & Analytics
+ ## Tools Used
 
 - Android SDK Platform Tools
 - ADB (command-line)
 - Nova Launcher
-- GitHub for tracking and documenting progress
 
 ## What’s Next
 
 - Rooting and deeper customizations (planned)
-- Testing GCam vs MiCam
 - UI redesign experiments
