@@ -1,0 +1,29 @@
+## 🔧 Actions Taken
+
+### 1. Switched Launcher
+- Replaced the default **MIUI System Launcher** with **Nova Launcher**
+- Resulted in a lighter and faster user interface
+
+### 2. Removed Bloatware via ADB
+- Utilized `adb shell pm uninstall --user 0` to remove high RAM-usage and unnecessary system apps like:
+  - Mi Video
+  - Mi Music
+  - Mi Browser
+  - Mi Feedback
+  - Mi Services & Analytics
+
+---
+
+## 🎮 Performance Improvements
+
+| Metric                          | Before Optimization     | After Optimization      |
+|-------------------------------|--------------------------|--------------------------|
+| UI Responsiveness             | Moderate lag             | Smooth and fast          |
+| Game FPS (Shadow Fight 2)     | Occasional drops/crashes | ~10% higher, no crashes  |
+| RAM Usage (Ads Spike in Games)| Caused game crash        | No crash or lag          |
+
+---
+
+## 🚀 Tools Used
+- **ADB** (Android Debug Bridge)
+- **Nova Launcher**
